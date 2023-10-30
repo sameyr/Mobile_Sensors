@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".PressureSensor">
+
+    <TextView
+        android:id="@+id/txt_pressure"
+        android:layout_width="275dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="421dp"
+        android:fontFamily="@font/aclonica"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioGroup
+        android:layout_width="373dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="521dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rdb_millibar"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:checked="true"
+            android:text="millibar(mbar)" />
+
+        <RadioButton
+            android:id="@+id/rdb_pascal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Pascal(Pa)" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_Pressurestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="342dp"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPressurestop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="342dp"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_listPressure"
+        android:layout_width="297dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="392dp"
+        android:layout_marginEnd="57dp"
+        android:scrollbars="horizontal"
+        android:scrollbarSize="12dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

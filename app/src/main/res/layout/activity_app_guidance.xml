@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".AppGuidance">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="374dp"
+        android:layout_height="452dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="203dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/app_instructions_n_n_1_this_app_will_help_you_check_the_features_n_n_2_features_including_all_the_sensors_of_your_phone_n_n_3_to_check_your_phone_information_click_general_n_n_4_to_see_all_the_available_sensors_click_sensors_n_n_5_for_sensor_simulation_go_to_info_choose_sensor_sensor_type"
+        android:textColor="#37474F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

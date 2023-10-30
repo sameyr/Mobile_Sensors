@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MobileSensorFinal</string>
+    <string name="txt_maimmenu">MAIN MENU</string>
+    <string name="txt_option1">1. Phone Information</string>
+    <string name="txt_option2">2. Available Sensors</string>
+    <string name="txt_option3">3. Sensor Information</string>
+    <string name="button1">Phone information</string>
+    <string name="button2">Available Sensor</string>
+    <string name="button3">Sensor Information</string>
+    <string name="info">General</string>
+    <string name="AvailableSensors">Sensors</string>
+    <string name="sensorInformation">Info</string>
+    <string name="available_sensors_in_this_device">AVAILABLE SENSORS IN THIS DEVICE</string>
+    <string name="click_here_for_n_app_guide">click here for\n App Guide</string>
+    <string name="app_instructions_n_n_1_this_app_will_help_you_check_the_features_n_n_2_features_including_all_the_sensors_of_your_phone_n_n_3_to_check_your_phone_information_click_general_n_n_4_to_see_all_the_available_sensors_click_sensors_n_n_5_for_sensor_simulation_go_to_info_choose_sensor_sensor_type">
+        <![CDATA[APP INSTRUCTIONS\n\n 1. This App will help you check the features. \n\n 2. Features including the sensors of your phone.\n\n 3. To check your Phone Information click \'General\'\n\n 4. To see all the available sensors click \'Sensors\' \n\n 5. for sensor simulation go to \'info\' > \'Choose Sensor\' > \'Sensor Type\' \n\n
+  6. You can Use Compass and Step Counter which is shown in Main Menu. \n\n ]]></string>
+    <string name="choose_your_sensor_type_here">Choose your sensor-type here!</string>
+    <string name="txt_position">Position Sensors</string>
+    <string name="txt_motion">Motion Sensors</string>
+    <string name="txt_Environmental">Environment Sensors</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="todo">TODO</string>
+    <string name="compass">Compass</string>
+    <string name="step_counter">Step Counter</string>
+</resources>
